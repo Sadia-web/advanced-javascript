@@ -1,81 +1,84 @@
-function sum(first, second){
-    let result = first + second;
-    //console.log(result);
-    return result;
-}
+//part 1:
+// function sum(first, second){
+//     let result = first + second;
+//     console.log(result);
+//     return result;
+// }
+// const output = sum(3, 7);
+// console.log(output);
 
-const output = sum(3, 7);
-console.log(output);
+// // global variable 
 
-// global variable 
+// let bonus = 20;
+// function sum(first, second){
+//     let result = first + second + bonus;
+//     console.log(bonus);
+//     return result;
+// }
 
-let bonus = 20;
-function sum(first, second){
-    let result = first + second + bonus;
-    console.log(bonus);
-    return result;
-}
+// const output = sum(3, 7);
+// console.log(output);
+// console.log(bonus);
 
-const output = sum(3, 7);
-console.log(output);
-console.log(bonus);
+// // using Const
 
-// using Const
+// function sum(first, second){
+//     let result = first + second;
+//     if(result > 9 ){
+//         const mood = "happy";
+//         console.log(mood);
+//     }
+       //console.log(mood); // It will give error. 
+//     return result;
+// }
 
-function sum(first, second){
-    let result = first + second;
-    if(result > 9 ){
-        const mood = "happy";
-        console.log(mood);
-    }
-    return result;
-}
+// const output = sum(3, 7);
+// console.log(output);
 
-const output = sum(3, 7);
-console.log(output);
+// // using let
 
-// using let
-
-function sum(first, second){
-    let result = first + second;
-    if(result > 9 ){
-        let mood = "happy";
-        mood = "fishy";
-        //console.log(mood);
-    }
-    console.log(mood);
-    return result;
-}
-
-const output = sum(3, 7);
-console.log(output);
+// function sum(first, second){
+//     let result = first + second;
+//     if(result > 9 ){
+//         let mood = "happy";
+//         mood = "fishy";
+//         console.log(mood);
+//     }
+//     //console.log(mood); // It will give error.
+//     return result;
+// }
+// const output = sum(3, 7);
+// console.log(output);
 
 
 
-// using var
+// // using var
 
-function sum(first, second){
-    let result = first + second;
-    if(result > 9 ){
-        var mood = "happy";
-        mood = "fishy";
-        //console.log(mood);
-    }
-    console.log(mood);
-    return result;
-}
-const output = sum(3, 7);
-console.log(output);
+// function sum(first, second){
+//     let result = first + second;
+//     if(result > 9 ){
+//         var mood = "happy";
+//         mood = "fishy";
+//         console.log(mood);
+//     }
+//     console.log(mood); // It will not give error.. Bcz it's not block scope.
+//     return result;
+// }
+// const output = sum(3, 7);
+// console.log(output);
 
-// get undefined
-console.log(day);
-var day = "friday";
+// // get undefined
 
-// get error
-console.log(day);
-let day = "friday";
+// console.log(day);
+// var day = "friday";
 
-// get error
+// // get error
+
+// console.log(day);
+// let day = "friday";
+
+// // get error
+
 console.log(day);
 const day = "friday";
 
